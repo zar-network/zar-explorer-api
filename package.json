@@ -1,0 +1,36 @@
+{
+  "name": "explorer.api.zar.network",
+  "version": "0.0.1",
+  "description": "Explorer API backend for ZAR Network",
+  "main": "explorer.api.zar.network.js",
+  "scripts": {
+    "start": "node explorer.api.zar.network.js",
+    "test": "mocha ./tests --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonnell/zarApi.git"
+  },
+  "author": "antonnell.crypto@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zar-network/zar-explorer-api/issues"
+  },
+  "homepage": "https://github.com/zar-network/zar-explorer-api#readme",
+  "dependencies": {
+    "async": "^3.1.0",
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "helmet": "^3.20.1",
+    "http-auth": "^3.2.3",
+    "morgan": "^1.9.1",
+    "pg-promise": "^8.7.5"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "supertest": "^4.0.2"
+  }
+}

@@ -1,0 +1,10 @@
+node_modules/
+/config/secret.jsx
+/config/config.jsx
+/config/config.json
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.config
+!.elasticbeanstalk/*.global.yml
